@@ -8,34 +8,34 @@
     <style>
         body{
             background-color: aliceblue;
+        }
+        #h1-heading{
+            text-align: center;
             font-size: 18px;
         }
-        h1{
-            text-align: center;
-        }
-        .container {
+        .ul-list-container {
             width: 80vw;
             margin: auto;
             margin-top: 20px;
         }
-        .container > ul {
+        .ul-list-container > ul {
             list-style-type: disc;
             font-size: 26px;
         }
 
-        .container > ul li {
+        .ul-list-container > ul li {
             margin: 10px 0;
         }
         
-        .container > ul a {
+        .ul-list-container > ul a {
             color: darkred;
             text-decoration: none;
             letter-spacing: 1px;
         }
-        .container > ul a:hover {
+        .ul-list-container > ul a:hover {
             color: crimson;
         }
-        .container > ul a:hover::after {
+        .ul-list-container > ul a:hover::after {
             content: '🚀';
             position: relative;
             left: 5px;
@@ -43,8 +43,8 @@
     </style>
 </head>
 <body>
-    <h1>Links to my HTML,CSS, Javascript Mini Projects👇</h1>
-    <div class="container">
+    <h1 id="h1-heading">Links to my HTML,CSS, Javascript Mini Projects👇</h1>
+    <div class="ul-list-container">
         <ul>
             <li>
                 <a href="./Animated 3D Boxes/index.html">Animated 3D Boxes</a>
